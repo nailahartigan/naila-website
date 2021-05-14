@@ -1,0 +1,17 @@
+def boss_room():
+    print("Congratulations bobo! You have reached the final room. Your challenge will be:")
+    crisps_eat()
+​
+def crisps_eat ():
+    crisps_count = 10   
+    boss_choice = input("Eat 10 crisps: Type nom nom nom >>>  ").lower()
+    if boss_choice == "nom nom nom":
+        print(f"{crisps_count} crisps left")
+        while crisps_count > 0:
+            crisps_count -=1
+            print(f"{crisps_count} crisps left")
+    else:
+        print("type nom nom nom")
+        crisps_eat()()
+​
+boss_room()
