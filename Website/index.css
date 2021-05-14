@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+h1 {
+    color: 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: cadetblue;
+    margin: 0px;
+
+
+}
+
+/* .menu ul {
+    display: inline-flex;
+    margin: 50px;
+    padding: 0%; */
+
+
+/* }
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color:white;
+    cursor: pointer;
+    
+} */
+
+.booknow-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white,hsla(0, 26%, 4%, 0.952)),radial-gradient(circle at top left,white,green);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+.booknow-btn span{
+    display: block;
+    padding: 8px 22px;
+
+}
+
+
+h1 {
+display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 15%;
+    color: white;
+}
+
+#text {
+    font-family: 'Dancing Script',cursive;
+    font-size: 350%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para{
+    text-indent: 18%;
+
+}
+
+
+.para2{
+    text-indent: 18%;
+    
+}
+
+.para3{
+    text-indent: 18%;
+    
+}
+
+.para4{
+    text-indent: 18%;
+    
+}
+
+.under{
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+
+.restore{
+    text-indent: 15%;
+}
+
+.restore2{
+    text-indent: 15%;
+}
+
+.restore3{
+    text-indent: 15%;
+}
+
+.restore4{
+    text-indent: 15%;
+}
+
+.mat{
+    text-indent: 23%;
+}
+
+
+.mat2{
+    text-indent: 23%;
+}
+
+.mat3{
+    text-indent: 23%;
+}
+
+.mat4{
+    text-indent: 23%;
+}
+
+.reformer{
+    text-indent: 23%;
+}
+
+.reformer2{
+    text-indent: 23%;
+}
+
+.reformer3{
+    text-indent: 23%;
+}
+
+.reformer4{
+    text-indent: 23%;
+}
+
+a {
+    color: white; 
+    margin: 0px 5px 0px 5px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 40%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.picture{
+    width: 25%;
+}
+
+.nav_bar{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
