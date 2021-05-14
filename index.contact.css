@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    background-color: cadetblue;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
